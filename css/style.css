@@ -1,0 +1,211 @@
+/* common css */
+@font-face {
+    font-family: "halvetica";
+    src: url('/fonts/Helvetica.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "halvetica";
+}
+
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    height: 60px;
+    margin-top: 15px;
+}
+
+.container {
+    max-width: 1170;
+    width: 100%;
+    padding: 0 15px;
+    margin: auto;
+}
+
+/* ===header css=== */
+.inner_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 120px;
+}
+
+.left_header {
+    display: flex;
+    align-items: center;
+}
+
+.left_header nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.left_header nav ul li {
+    margin-right: 40px;
+}
+
+.left_header nav ul li a {
+    font-family: Avenir, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #212353;
+}
+
+.demo_button {
+    width: 210px;
+    height: 60px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+    border-radius: 50px;
+    cursor: pointer;
+
+    font-family: Avenir sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    display: flex;
+    line-height: 160%;
+    align-items: center;
+    letter-spacing: 0.005em;
+
+    color: #212353;
+    border: none;
+    outline: none;
+    padding: 17px 30px;
+}
+
+.demo_button span {
+    color: #9c69e2;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+/* ==header css End== */
+
+/* ==hero banner css start== */
+#hero_baner {
+    height: calc(100vh - 75px);
+    background-image: url("../images/hero_baner_image.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 59%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.inner_hero_baner {}
+
+.inner_hero_baner h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 110%;
+    color: #212353;
+    max-width: 645px;
+}
+
+.inner_hero_baner p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #4B5D68;
+    max-width: 380px;
+    margin: 50px 0;
+}
+
+.inner_hero_baner a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 170px;
+    height: 60px;
+    background: #9C69E2;
+    border-radius: 50px;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 160%;
+
+    color: #FFFFFF;
+}
+
+/* ==hero banner css End== */
+/* ==storage bank css start == */
+#data_storage_bank {}
+
+.inner_storage_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 1117px;
+    height: 560px;
+    left: 241px;
+    top: 903.18px;
+
+
+    background: rgba(240, 99, 184, 0.15);
+    border-radius: 50px;
+}
+
+.inner_storage_box {}
+
+.storage_contant h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    color: #212353;
+    max-width: 475px;
+
+}
+
+.storage_contant p {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #4B5D68;
+    margin-top: 40px;
+    max-width: 475px;
+}
+
+
+
+
+/* ==storage bank css End  ==
